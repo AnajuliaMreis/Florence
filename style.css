@@ -2,7 +2,7 @@
 
 .img {
     position:absolute;
-       top:150px;
+       top:10px;
        left:20px;
     }
 
@@ -34,8 +34,9 @@
      h1 {
        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       font-style:oblique;
-      font-weight: 400px;
+      font-weight: 300px;
       font-display: 5px;
+      display: inline-block;
       }
       
     header {
