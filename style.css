@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+.img {
+       top:150px;
+       left:20px;
+    }
+
+   
+ .quemsomos {
+ width:2000px;
+ height:500px;
+ background-color: rgb(230, 213, 192);
+ border: 3px solid black;
+ position: absolute;
+ top: 150px;
+ left: 900px;
+ }
+ 
+ figure{
+    .img{
+ top:500;
+ left: 900px;
+    }
+ }
+ 
+ p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+     font-size: 2em ;
+     }
+ 
+     h1 {
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-style:oblique;
+      font-weight: 400px;
+      font-display: 5px;
+      }
+      
+    header {
+ padding: 2px;
+ box-shadow: 10px 10px 10px black;
+ border-radius: 20px;
+ text-align: center;
+ background-color: rgb(23, 177, 23);
+     }
+ 
+     header > h1 {
+       color:black
+    }
+ 
+ main {
+ background-color: rgb(219, 0, 106);
+ } 
+ 
+ footer {
+    text-align: center;
+    padding: 10px;
+ box-shadow: 10px 10px 10px black;
+ border-radius: 20px;
+ background-color: rgb(0, 0, 0);
+ 
+ }
+ 
+ footer > p {
+ 
+ color:rgb(255, 255, 255)
+ 
+ }
+ 
+ body {
+    background-color: rgb(255, 255, 255);
+ }
+ 
+      
