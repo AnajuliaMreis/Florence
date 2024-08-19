@@ -1,6 +1,7 @@
 @charset "UTF-8";
 
 .img {
+    position:absolute;
        top:150px;
        left:20px;
     }
