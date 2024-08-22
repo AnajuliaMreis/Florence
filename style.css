@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+body {
+   background-image: url(img/florback.png.jpg);
+}
+
 
 h1 {
    font-family: "Yesteryear", cursive;
@@ -102,7 +106,6 @@ padding: 5px;
     text-align: center;
     padding: 2px;
  box-shadow: 10px 10px 10px, 10px black;
-
  background-image: url(img/florback.png.jpg);
  
  }
@@ -169,13 +172,15 @@ border-radius: 30px;
  }
  
  nav {
-  background-color: rgb(130, 106, 237);
- padding: 10px;
+   background-image: url(img/florback.png.jpg); padding: 10px;
  border-radius: 10px;
  gap: 50px;
+
  }
 nav > a {
-   gap: 50px;
+   row-gap: 50px;
+   color:aliceblue;
+   font-family:  "Yesteryear", cursive;
 }
 
  nav > a:hover{
