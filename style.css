@@ -172,7 +172,16 @@ border-radius: 30px;
   background-color: rgb(130, 106, 237);
  padding: 10px;
  border-radius: 10px;
+ gap: 50px;
  }
+nav > a {
+   gap: 50px;
+}
+
+ nav > a:hover{
+      color:rgb(10, 173, 255);
+   }
+ 
 
 ul {
 background-color: rgb(139,205,81);
