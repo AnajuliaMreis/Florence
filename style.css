@@ -9,6 +9,12 @@ h1 {
   display: inline-block;
   }
   
+  @media screen and (max-width:500px) {
+   h1{
+   font-weight: 250px;
+  }
+  }
+
 header {
 padding: 2px;
 box-shadow: 10px 10px 10px black;
@@ -183,6 +189,8 @@ ul >li{
 
 @font-face {
    font-family: jujumelozz;
-   src: url("Reddit Mono")format("truetype")
+   src: url("Reddit Mono")format(ttf)
    url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&family=Share+Tech+Mono&display=swap');
+   font-weight: ;
+
 }
