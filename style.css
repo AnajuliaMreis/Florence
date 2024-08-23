@@ -13,11 +13,6 @@ h1 {
   display: inline-block;
   }
   
-  @media screen and (max-width:500px) {
-   h1{
-   font-weight: 250px;
-  }
-  }
 
 header {
 padding: 2px;
@@ -48,7 +43,7 @@ img {
 }
 
 .quemsomos {
-   width:700px;
+   width:700px; 
    height:420px;
    background-color: rgb(230, 213, 192);
    padding: 5px;
@@ -64,9 +59,9 @@ font-size: 34px;
 
 }
 
- .sede {
+ aside {
 position: absolute;
-top: 150px;
+top: 155px;
 left: 740px;
  }
 
@@ -181,6 +176,9 @@ nav > a {
    row-gap: 50px;
    color:aliceblue;
    font-family:  "Yesteryear", cursive;
+   margin-left: 100px;
+   margin-right: 100px;
+
 }
 
  nav > a:hover{
@@ -201,10 +199,37 @@ ul >li{
    font-family: jujumelozz;
 }
 
-@font-face {
-   font-family: jujumelozz;
-   src: url("Reddit Mono")format(ttf)
-   url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&family=Share+Tech+Mono&display=swap');
-   font-weight: ;
+ @media screen and (max-width: 500px) {
+   h1 {
+font-weight: 800px;
+   }
+
+main{
+   
+   border-radius: 5px;
+display: inline-block;
+}
+
+img {
+   position: relative;
+   display: block;
+}
+
+ nav {
+   background-image: url(img/florback.png.jpg); padding: 10px;
+ border-radius: 10px;
+ gap: 50px;
+
+ }
+}
+
+
+
+
+
+
+
+
+
 
 }
